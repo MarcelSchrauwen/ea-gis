@@ -7,6 +7,6 @@ Zodra er een plek is waar deze definief ondergebracht kan worden zal een verhuiz
 Het is wel belangrijk om te weten dat deze repository enkel een html rapport publicatie van de daadwerkelijke architectuurdatabase bevat, die zelf veilig is ondergebracht in een beheerde omgeving.
 
 ### Links
-- Publicatie
-- Openstaande issues
-- Vragen en feedback
+- Publicatie (to do)
+- Openstaande issues (to do)
+- Vragen en feedback (to do)
