@@ -82,3 +82,10 @@ function bulkshow(showpage) {
         }
     }
 }
+
+// Extra code: zet alle links/areas in .diagram_image naar target="_blank"
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".diagram_image a, .diagram_image area").forEach(function(el) {
+        el.setAttribute("target", "_blank");
+    });
+});
