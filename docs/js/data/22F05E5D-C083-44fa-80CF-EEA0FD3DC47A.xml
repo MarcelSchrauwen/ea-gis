@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.5.1.2:1", "", "Algemene inlogmiddelen", "EARoot/EA5/EA1/EA2/EA30.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E169", "0", "", "Class0","{0E0B38E6-7C8F-460c-AED4-E471451D5FE4}");
-tocTab[tocTab.length] = new Array("0.5.1.2:2", "", "BIG Register (Beroepsgroepen register)", "EARoot/EA5/EA1/EA2/EA31.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E174", "0", "", "Class0","{7AE20238-6121-4ff5-A1C2-0979F35EF876}");
-tocTab[tocTab.length] = new Array("0.5.1.2:3", "", "Dezi Register (Zorgverleneridentiteiten register)", "EARoot/EA5/EA1/EA2/EA32.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E173", "0", "", "Class0","{0C391B6A-668B-458b-AC5E-4F1B4FC16610}");
-tocTab[tocTab.length] = new Array("0.5.1.2:4", "", "Inlogmiddelen", "EARoot/EA5/EA1/EA2/EA33.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E168", "0", "", "Class0","{8A7AA297-1BC7-40ae-953E-1F2AB2BF8958}");
-tocTab[tocTab.length] = new Array("0.5.1.2:5", "", "Overige registers voor inlogmiddelen?", "EARoot/EA5/EA1/EA2/EA34.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E175", "0", "", "Class0","{9F7EB3AC-3E5F-409e-A4D5-AF6526CC1F9C}");
-tocTab[tocTab.length] = new Array("0.5.1.2:6", "", "Publieke centrale I&A voorziening", "EARoot/EA5/EA1/EA2/EA35.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E176", "0", "", "Class0","{D51C80C3-CBA1-4a93-93DB-F27DB78265DC}");
-tocTab[tocTab.length] = new Array("0.5.1.2:7", "", "Registers", "EARoot/EA5/EA1/EA2/EA36.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E171", "0", "", "Class0","{3C705F91-9F8F-4b4d-8696-2FB524A395DE}");
-tocTab[tocTab.length] = new Array("0.5.1.2:8", "", "Zorgspecifieke inlogmiddelen", "EARoot/EA5/EA1/EA2/EA37.htm", "9F0DDA8A-5_ArchiMate_Resource.png", "E170", "0", "", "Class0","{9C50AB88-8EC0-4955-84EF-24A156B69918}");
