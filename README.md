@@ -14,5 +14,5 @@ Het is nadrukkelijk géén omgeving voor Solution Architectuur of Software Archi
 Door deze scheiding is duidelijk dat deze omgeving de architectuur van het gehele stelsel betreft, en niet de detaillering van individuele oplossingen of systemen.
 
 ### Links
-- Publicatie (to do)
+- [Publicatie](https://marcelschrauwen.github.io/ea-gis/)
 - Openstaande issues (to do)
