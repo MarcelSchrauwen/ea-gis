@@ -4,6 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Beschikbaarheid specificatie</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
 
@@ -36,7 +40,12 @@
 			}
 		}
 		function initPage()
-        {			
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
 			var divs = document.getElementsByClassName("ObjectDetailsNotes");
 			for (var j = 0; j < divs.length; j++) {
 				var tmpStr = divs[j].innerHTML;
@@ -64,7 +73,7 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Beschikbaarheid specificatie </h1>
+			<h1>EA Gezondheidsinformatiestelsel</h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
@@ -89,7 +98,7 @@
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
-<div class="PageBody">
+<div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
 	<!-- <span class="ObjectTitle">Beschikbaarheid specificatie  : Public   Legend</span> -->
 	<!-- CUSTOM -->
 	<span class="ObjectTitle">Beschikbaarheid specificatie</span>
@@ -154,7 +163,7 @@
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA4/EA1/EA61.htm">Realisatie specificaties applicatiefuncties</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA4/EA1/EA61.htm">02. Beschikbaarheid van specificaties applicatiefuncties</a></td>
 		</tr>
 		-->
 		<!-- CUSTOM -->
@@ -176,24 +185,23 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Komt voor in:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA4/EA1/EA61.htm">Realisatie specificaties applicatiefuncties</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA4/EA1/EA61.htm">02. Beschikbaarheid van specificaties applicatiefuncties</a></td>
 		</tr>
 
 		<!-- END CUSTOM -->
 	</table>
 	<!-- CUSTOM -->
-	<hr>
+	<!-- <hr>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td class="ObjectDetailsTopic">Reactie:</td>
 			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Legend+-+Beschikbaarheid specificatie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
 		</tr>
-	</table>
+	</table> -->
 	<hr>
 	<!-- END CUSTOM -->
 	<!-- <div class="ObjectDetailsNotes">&lt;b&gt;Onbekend&lt;/b&gt;&lt;br/&gt;Onbekend&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;Gepland&lt;/b&gt;&lt;br/&gt;Specificaties zijn voozien en gepland&lt;br/&gt;&lt;br/&gt;&lt;b&gt;In ontwikkeling&lt;/b&gt;&lt;br/&gt;Speficaties zijn in ontwikkeling&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Beschikbaar&lt;/b&gt;&lt;br/&gt;Specificaties zijn beschikbaar voor gebruik.&lt;br/&gt;</div>
- -->
-	<div class="TableGroup" id="TableGroup">
+ -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
@@ -209,8 +217,13 @@
 			</tr>
 
 			<tr>
+				<td width="30%" class="TableRow">Niet gepland:</td>
+				<td width="70%" class="TableRow">#Back_Ground_Color#=16777152;#Pen_Color#=11119017;#Pen_Size#=4;#Legend_Type#=LEGEND_OBJECTSTYLE;#Display_Value#=Niet gepland;</td>
+			</tr>
+
+			<tr>
 				<td width="30%" class="TableRow">Gepland:</td>
-				<td width="70%" class="TableRow">#Back_Ground_Color#=16777152;#Pen_Color#=11119017;#Pen_Size#=4;#Legend_Type#=LEGEND_OBJECTSTYLE;#Display_Value#=Gepland;</td>
+				<td width="70%" class="TableRow">#Back_Ground_Color#=16777152;#Pen_Color#=16711935;#Pen_Size#=4;#Legend_Type#=LEGEND_OBJECTSTYLE;#Display_Value#=Gepland;</td>
 			</tr>
 
 			<tr>
@@ -240,4 +253,3 @@
 </div>
 </body>
 </html>
-
