@@ -726,6 +726,21 @@ div{
 	background-color: white;
 }
 
+div.previewPanel .TableRow
+{
+       padding-bottom: 2px !important;
+       background-color: inherit !important;
+}
+div.previewPanel .TableHeading
+{
+       background-color: inherit !important;
+       padding-top:8px;
+       padding-top:3px;
+}
+
+div.previewPanel .TableRowBottomDashed {
+       display:none;
+}
 /* EIND: TOOLTIP CODE */
 
 #EMBEDDED_IMAGES#
