@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "«ArchiMate_DataObject» Data object 1", "EARoot/EA1/EA1/EA3/EA52.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E222", "0", "", "Class0","{D8F73DB2-9811-40e5-AA2E-21C56767D4BE}");
+tocTab[tocTab.length] = new Array("0.1.1.3:2", "", "«ArchiMate_DataObject» Dataobject 2", "EARoot/EA1/EA1/EA3/EA53.htm", "9F0DDA8A-5_ArchiMate_DataObject.png", "E223", "0", "", "Class0","{2549F725-02A2-42fd-8A48-25277AC09EFB}");

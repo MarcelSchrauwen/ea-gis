@@ -2,8 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Authenticatie burger/patiënt functie</title>
+<title>Authenticatie applicatie functie</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
 
@@ -36,7 +40,12 @@
 			}
 		}
 		function initPage()
-        {			
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
 			var divs = document.getElementsByClassName("ObjectDetailsNotes");
 			for (var j = 0; j < divs.length; j++) {
 				var tmpStr = divs[j].innerHTML;
@@ -64,12 +73,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Authenticatie burger/patiënt functie </h1>
+			<h1>EA Gezondheidsinformatiestelsel</h1>
 			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Architectuur-GIS</a> / <a href="../../EA1.htm">Elementen</a> / <a href="../EA3.htm">Applicatiedomein</a> / <a href="EA18.htm">Applicatiefuncties</a> / <a href="EA22.htm">Authenticatie burger/patiënt functie</a></p>
+			<p><a href="../../../../index.htm">Architectuur-GIS</a> / <a href="../../EA1.htm">Elementen</a> / <a href="../EA3.htm">Applicatiedomein</a> / <a href="EA19.htm">Applicatiefuncties</a> / <a href="EA22.htm">Authenticatie applicatie functie</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -85,15 +94,15 @@
 						<!-- <div class="projectBrowserTitle">Project: </div> -->
 						<div class="projectBrowserTitle"></div>
 						<ul>
-<a href="EA18.htm">Applicatiefuncties</a></ul>
+<a href="EA19.htm">Applicatiefuncties</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
-<div class="PageBody">
-	<!-- <span class="ObjectTitle">Authenticatie burger/patiënt functie  : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span> -->
+<div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
+	<!-- <span class="ObjectTitle">Authenticatie applicatie functie  : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span> -->
 	<!-- CUSTOM -->
-	<span class="ObjectTitle">Authenticatie burger/patiënt functie</span>
-	<div class="ObjectDetailsNotes">#lt;definitie#gt;&lt;br/&gt;&lt;br/&gt;&lt;i&gt;#lt;bron:#gt;&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;</div>
+	<span class="ObjectTitle">Authenticatie applicatie functie</span>
+	<div class="ObjectDetailsNotes">#lt;definitie#gt;&lt;br/&gt;&lt;br/&gt;&lt;i&gt;#lt;bron:#gt;&lt;/i&gt;&lt;br/&gt;</div>
 
 	<hr>
 	<!-- END CUSTOM -->
@@ -101,11 +110,11 @@
 		<!--
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2-9-2025 10:03:51</td>
+			<td width="85%" class="ObjectDetailsValue">2-9-2025 10:07:47</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">3-9-2025 07:16:44</td>
+			<td class="ObjectDetailsValue">3-9-2025 07:16:40</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -150,11 +159,11 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DC21FED0-D662-4e41-97CE-867CE47D6A83}</td>
+			<td class="ObjectDetailsValue">{6E3B5A71-9271-46d5-8FCF-4D670164A9C1}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA4/EA1/EA56.htm">02. Beschikbaarheid specificaties</a>, <a href="../../../EA4/EA1/EA54.htm">01. Lijst</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA4/EA1/EA60.htm">02. Beschikbaarheid specificaties</a>, <a href="../../../EA4/EA1/EA58.htm">01. Lijst</a></td>
 		</tr>
 		-->
 		<!-- CUSTOM -->
@@ -164,11 +173,11 @@
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
-			<td width="85%" class="ObjectDetailsValue">2-9-2025 10:03:51</td>
+			<td width="85%" class="ObjectDetailsValue">2-9-2025 10:07:47</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">3-9-2025 07:16:44</td>
+			<td class="ObjectDetailsValue">3-9-2025 07:16:40</td>
 		</tr>
         <tr>
 			<td class="ObjectDetailsTopic">Versie:</td>
@@ -176,24 +185,23 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Komt voor in:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA4/EA1/EA56.htm">02. Beschikbaarheid specificaties</a>, <a href="../../../EA4/EA1/EA54.htm">01. Lijst</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA4/EA1/EA60.htm">02. Beschikbaarheid specificaties</a>, <a href="../../../EA4/EA1/EA58.htm">01. Lijst</a></td>
 		</tr>
 
 		<!-- END CUSTOM -->
 	</table>
 	<!-- CUSTOM -->
-	<hr>
+	<!-- <hr>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td class="ObjectDetailsTopic">Reactie:</td>
-			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+ApplicationFunction+-+Authenticatie burger/patiënt functie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+ApplicationFunction+-+Authenticatie applicatie functie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
 		</tr>
-	</table>
+	</table> -->
 	<hr>
 	<!-- END CUSTOM -->
-	<!-- <div class="ObjectDetailsNotes">#lt;definitie#gt;&lt;br/&gt;&lt;br/&gt;&lt;i&gt;#lt;bron:#gt;&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;</div>
- -->
-	<div class="TableGroup" id="TableGroup">
+	<!-- <div class="ObjectDetailsNotes">#lt;definitie#gt;&lt;br/&gt;&lt;br/&gt;&lt;i&gt;#lt;bron:#gt;&lt;/i&gt;&lt;br/&gt;</div>
+ -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
@@ -253,4 +261,3 @@
 </div>
 </body>
 </html>
-

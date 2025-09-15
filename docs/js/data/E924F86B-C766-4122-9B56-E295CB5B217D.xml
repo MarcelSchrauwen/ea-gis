@@ -1,6 +1,6 @@
 tocTab[tocTab.length] = new Array("0.1", "1", "Elementen", "EARoot/EA1/EA1.htm", "4.png", "", "", "{2D9B9C05-D247-49fb-A454-E94DA7562ECB}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "", "Views - Context", "EARoot/EA2/EA50.htm", "4.png", "", "", "{F09461E1-DFE3-4fba-9ADD-5EA6EF939644}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "", "Views - Conceptueel", "EARoot/EA3/EA51.htm", "4.png", "", "", "{9472817C-53B1-4a30-A6E5-62B52B7542FB}", "Package");
-tocTab[tocTab.length] = new Array("0.4", "1", "Views - Logisch", "EARoot/EA4/EA52.htm", "4.png", "", "", "{670A1188-D348-4778-8CE5-7544C3E09BBE}", "Package");
-tocTab[tocTab.length] = new Array("0.5", "", "Views - Fysiek", "EARoot/EA5/EA59.htm", "4.png", "", "", "{2C740FF6-49C0-4409-8519-F4C2CD1B795C}", "Package");
-tocTab[tocTab.length] = new Array("0.6", "1", "Hulpmiddelen", "EARoot/EA6/EA60.htm", "4.png", "", "", "{765B80C5-34C6-44d6-AA7F-5A91DB9BBE41}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "", "Views - Context", "EARoot/EA2/EA54.htm", "4.png", "", "", "{F09461E1-DFE3-4fba-9ADD-5EA6EF939644}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "", "Views - Conceptueel", "EARoot/EA3/EA55.htm", "4.png", "", "", "{9472817C-53B1-4a30-A6E5-62B52B7542FB}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Views - Logisch", "EARoot/EA4/EA56.htm", "4.png", "", "", "{670A1188-D348-4778-8CE5-7544C3E09BBE}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "", "Views - Fysiek", "EARoot/EA5/EA63.htm", "4.png", "", "", "{2C740FF6-49C0-4409-8519-F4C2CD1B795C}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Hulpmiddelen", "EARoot/EA6/EA64.htm", "4.png", "", "", "{765B80C5-34C6-44d6-AA7F-5A91DB9BBE41}", "Package");

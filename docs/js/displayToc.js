@@ -10,10 +10,9 @@ function toggleItem(item) {
             if (titles[i].id == item + "Title") {
                 titles[i].style.background = "#FFFFFF";
                 titles[i].style.color = "#000000";
-            }
-            else {
+            } else {
 
-				titles[i].style.background = "#DDDDDD";
+                titles[i].style.background = "#DDDDDD";
                 titles[i].style.color = "#666666";
             }
         }
@@ -27,7 +26,8 @@ function toggleItem(item) {
     }
 }
 function toggleItemDetails(tabs, title) {
-    var i, height = 0;
+    var i,
+    height = 0;
 
     for (i = 0; i < tabs.length; i++) {
         var tab = tabs[i];
@@ -35,8 +35,7 @@ function toggleItemDetails(tabs, title) {
         if (tab.id == title + "Table") {
             tab.style.display = "block";
             height = tab.clientHeight;
-        }
-        else
+        } else
             tab.style.display = "none";
     }
 
@@ -67,8 +66,7 @@ function bulkshow(showpage) {
 
                     divs[j].innerHTML = tmpStr;
                 }
-            }
-            else {
+            } else {
                 document.getElementById(id).style.display = 'none';
             }
         }
@@ -82,10 +80,48 @@ function bulkshow(showpage) {
         }
     }
 }
+// START - TOOLTIP CODE
+function mapRectangleMouseOver(sender) {
 
-// Extra code: zet alle links/areas in .diagram_image naar target="_blank"
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll(".diagram_image a, .diagram_image area").forEach(function(el) {
-        el.setAttribute("target", "_blank");
+    if (!sender || !sender.href) return;
+
+    var informationURL = sender.href;
+    if (!informationURL) return;
+
+    jQuery.get(informationURL, function (data) {
+
+        var loadedHTML = jQuery.parseHTML(data);
+        var docDOM = $('<output>').append(loadedHTML);
+        var bodyDOM = $('.ElementPage', docDOM);
+
+        if (!bodyDOM.length) return;
+
+        var itemNotes = $('.ObjectDetailsNotes', bodyDOM);
+        
+        if (!itemNotes.length) return;
+
+        var notes = unescapeHtml(itemNotes.html() || "");
+        if (notes === "") return;
+
+        var array = sender.coords.split(',');
+
+        $(".previewPanel").html("");
+        $(".previewPanel").append(notes);
+        
+        $(".previewPanel").css("margin-top", (Number(array[1]) - 15) + "px");
+        $(".previewPanel").css("margin-left", (Number(array[2]) - 410) + "px");
+        $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });
-});
+
+}
+
+function mapRectangleMouseOut(sender) {
+    if ($(".previewPanel:hover").length === 0) {
+        $(".previewPanel").stop(true, true).fadeOut(400); // stop oude animaties, dan fade out
+    }
+}
+
+function unescapeHtml(safe) {
+    return $('<div>').html(safe).text();
+}
+// EINDE - TOOLTIP CODE

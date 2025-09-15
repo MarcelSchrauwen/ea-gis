@@ -2,8 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>01. Applicatiefuncties</title>
+<title>02. Beschikbaarheid specificaties</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
 
@@ -36,7 +40,12 @@
 			}
 		}
 		function initPage()
-        {			
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
 			var divs = document.getElementsByClassName("ObjectDetailsNotes");
 			for (var j = 0; j < divs.length; j++) {
 				var tmpStr = divs[j].innerHTML;
@@ -64,12 +73,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> 01. Applicatiefuncties </h1>
+			<h1>EA Gezondheidsinformatiestelsel</h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Architectuur-GIS</a> / <a href="../EA54.htm">Views - Logisch</a> / <a href="EA60.htm">01. Applicatiefuncties</a></p>
+			<p><a href="../../../index.htm">Architectuur-GIS</a> / <a href="../EA56.htm">Views - Logisch</a> / <a href="EA62.htm">01. Applicatiefuncties</a> / <a href="EA60.htm">02. Beschikbaarheid specificaties</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -85,115 +94,102 @@
 						<!-- <div class="projectBrowserTitle">Project: </div> -->
 						<div class="projectBrowserTitle"></div>
 						<ul>
-<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA56.htm">02. Lijst</a></li>
-<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA58.htm">02. Realisatie specificaties</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA58.htm">01. Lijst</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA60.htm">02. Beschikbaarheid specificaties</a></li>
 </ul>
 
 					</td>
-					<td class="contentcell"><div class="pageHeader"></div>
-<div class="PageBody">
-	<!-- <span class="ObjectTitle">01. Applicatiefuncties  : Public   Package</span> -->
+					<td class="contentcell"><div class="PageBody">
 	<!-- CUSTOM -->
-	<span class="ObjectTitle">01. Applicatiefuncties</span>
-	
+	<div class=previewPanel></div>
+	<div class="ObjectTitle">02. Beschikbaarheid specificaties</div>
+	<div class="ObjectDetailsNotes">Het onderstaande diagram geeft een overzicht van de huidige realisatiestatus van landelijk gestandaardiseerde specificaties voor generieke functies.&lt;br/&gt;</div>
+
 	<hr>
 	<!-- END CUSTOM -->
-	<table border="0" class="ObjectDetails">
-		<!--
+	<div class=diagram_image> 
+<img src="EA61.png" usemap="#EA61" border="0" />
+
+<MAP NAME="EA61">
+<area shape="rect" coords="135,191,240,261" href="../../EA1/EA1/EA1/EA36.htm" target="_self">
+<area shape="rect" coords="10,190,115,260" href="../../EA1/EA1/EA1/EA35.htm" target="_self">
+<area shape="rect" coords="10,10,115,80" href="../../EA1/EA1/EA1/EA21.htm" target="_self">
+<area shape="rect" coords="760,100,865,170" href="../../EA1/EA1/EA1/EA34.htm" target="_self">
+<area shape="rect" coords="635,100,740,170" href="../../EA1/EA1/EA1/EA33.htm" target="_self">
+<area shape="rect" coords="510,100,615,170" href="../../EA1/EA1/EA1/EA32.htm" target="_self">
+<area shape="rect" coords="385,100,490,170" href="../../EA1/EA1/EA1/EA31.htm" target="_self">
+<area shape="rect" coords="260,100,365,170" href="../../EA1/EA1/EA1/EA30.htm" target="_self">
+<area shape="rect" coords="135,100,240,170" href="../../EA1/EA1/EA1/EA29.htm" target="_self">
+<area shape="rect" coords="10,100,115,170" href="../../EA1/EA1/EA1/EA28.htm" target="_self">
+<area shape="rect" coords="760,10,865,80" href="../../EA1/EA1/EA1/EA27.htm" target="_self">
+<area shape="rect" coords="635,10,740,80" href="../../EA1/EA1/EA1/EA26.htm" target="_self">
+<area shape="rect" coords="510,10,615,80" href="../../EA1/EA1/EA1/EA25.htm" target="_self">
+<area shape="rect" coords="385,10,490,80" href="../../EA1/EA1/EA1/EA24.htm" target="_self">
+<area shape="rect" coords="260,10,365,80" href="../../EA1/EA1/EA1/EA23.htm" target="_self">
+<area shape="rect" coords="135,10,240,80" href="../../EA1/EA1/EA1/EA22.htm" target="_self">
+<area shape="rect" coords="14,441,205,598" href="../../EA6/EA1/EA67.htm" target="_self">
+</MAP>
+ </div>
+	<!-- <div class="ObjectTitle">02. Beschikbaarheid specificaties : Application Layer diagram</div> -->
+		<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<!-- REMOVE
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2-9-2025 08:50:15</td>
+			<td width="85%" class="ObjectDetailsValue">2-9-2025 08:50:42</td>
 		</tr>
 		<tr>
-			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2-9-2025 08:50:15</td>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">8-9-2025 10:36:37</td>
 		</tr>
-		<tr style="height: 10px"><td colspan="2"></td></tr>
-		<tr>
-			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
-			<td class="ObjectDetailsValue"></td>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
 		</tr>
 		<tr id="proj00" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Marcel Schrauwen</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue">1.0</td>
-		</tr>
-		<tr id="proj02" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
-			<td class="ObjectDetailsValue">1.0</td>
-		</tr>
-		<tr id="proj03" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
-			<td class="ObjectDetailsValue">Proposed</td>
-		</tr>
-		<tr id="proj04" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Easy</td>
-		</tr>
-		<tr id="proj05" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="proj06" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="proj05" style="display: none;">
-			<td class="ObjectDetailsTopic" >Multiplicity:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
 		</tr>
 		<tr>
-			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
 		</tr>
 		<tr id="adv00" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{9F685870-637B-4821-A4D6-7566B0272541}</td>
-		</tr>
-		<tr id="adv01" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{2108C63C-6AB7-40e2-A9C7-E453A0322CE0}</td>
 		</tr>
 		-->
 		<!-- CUSTOM -->
-		<tr>
-			<td width="15%" class="ObjectDetailsTopic">Type:</td>
-			<td width="85%" class="ObjectDetailsValue">Package</td>
+		<hr>
+		<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">2-9-2025 08:50:42</td>
 		</tr>
 		<tr>
-			<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
-			<td width="85%" class="ObjectDetailsValue">2-9-2025 08:50:15</td>
+			<td width="15%" class="ObjectDetailsTopic">Aangepast:</td>
+			<td width="85%" class="ObjectDetailsValue">8-9-2025 10:36:37</td>
 		</tr>
 		<tr>
-			<td class="ObjectDetailsTopic">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">2-9-2025 08:50:15</td>
+			<td width="15%" class="ObjectDetailsTopic">Versie:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
 		</tr>
-        <tr>
-			<td class="ObjectDetailsTopic">Versie:</td>
-			<td class="ObjectDetailsValue">1.0</td>
-		</tr>
-		<tr>
-			<td class="ObjectDetailsTopic">Komt voor in:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-
-		<!-- END CUSTOM -->
 	</table>
 	<!-- CUSTOM -->
-	<hr>
+	<!-- <hr>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td class="ObjectDetailsTopic">Reactie:</td>
-			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Package+-+01. Applicatiefuncties&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+02. Beschikbaarheid specificaties&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
 		</tr>
-	</table>
+	<table> -->
 	<hr>
 	<!-- END CUSTOM -->
-	<!--  -->
- </div>
+	<!-- <div class="ObjectDetailsNotes">Het onderstaande diagram geeft een overzicht van de huidige realisatiestatus van landelijk gestandaardiseerde specificaties voor generieke functies.&lt;br/&gt;</div>
+ -->
+</div>
+
  </td>
 				</tr>
 			</tbody>
@@ -202,4 +198,3 @@
 </div>
 </body>
 </html>
-
