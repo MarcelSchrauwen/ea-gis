@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>03. Informatie objecten</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>GGZ Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Architectuur-GGZ</a> / <a href="../../EA1.htm">Elementen</a> / <a href="../EA4.htm">Business domein</a> / <a href="EA186.htm">03. Informatie objecten</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA187.htm">Aanlevering</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA188.htm">Aanvraag aanvullend onderzoek</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA189.htm">Aanvraag collegiaal consult</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA190.htm">Aanvraag onderzoek</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA191.htm">Aanvraag/planning intra- en extramurale beweging</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA192.htm">Aanvraag/planning zorghandeling</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA193.htm">Afspraak</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA194.htm">Anamnese</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA195.htm">Arbeids overeenkomst</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA196.htm">Artikel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA197.htm">Balans</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA198.htm">Beeld</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA199.htm">Behandelplan</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA200.htm">Behandelverslag</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA201.htm">Bestek</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA202.htm">Bevinding</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA203.htm">Complicatie registratie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA204.htm">Contacten</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA205.htm">Contra-indicatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA206.htm">Contract</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA207.htm">Declaratie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA208.htm">Decursus</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA209.htm">Diagnose</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA210.htm">Enterprise architectuur</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA211.htm">Facilitaire dienst</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA212.htm">Factuur</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA213.htm">Financiers gegeves</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA214.htm">Folders en brochures</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA215.htm">Functieprofiel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA216.htm">Gebouw</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA217.htm">Gegevens relatie onderwijs en zorgproces</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA218.htm">Grootboek</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA219.htm">Huisvestingsplan</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA220.htm">ICT componenten</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA221.htm">ICT diensten</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA222.htm">Informatieplan</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA223.htm">Informed consent</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA224.htm">Innovatieplan / roadmap</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA225.htm">Inventaris</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA226.htm">Jaarverslag</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA227.htm">Juridisch advies</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA228.htm">Juridische maatregel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA229.htm">Klacht</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA230.htm">Leverancier</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA231.htm">Leveringsovereenkomst</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA232.htm">Locatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA233.htm">Logistieke gegevens onderwijs</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA234.htm">Marktanalyse</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA235.htm">Medicatie inventarisatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA236.htm">Medicatie opdracht</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA237.htm">Medicatie toediening</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA238.htm">Medicatie verstrekking</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA239.htm">Medicatie voorschrift</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA240.htm">Medicijn</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA241.htm">Middel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA242.htm">Missie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA243.htm">Nazorg afspraken</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA244.htm">Nieuwsbericht</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA245.htm">Offerte</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA246.htm">Onderwijs deelnemer</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA247.htm">Onderwijs kwalificatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA248.htm">Onderwijs materiaal</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA249.htm">Onderwijs programma</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA250.htm">Onderzoek publicatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA251.htm">Onderzoeks materiaal</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA252.htm">Onderzoeksdata</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA253.htm">Onderzoeksrapport</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA254.htm">Onderzoeksverslag</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA255.htm">Onderzoeksvoorstel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA256.htm">Ontslag verslag</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA257.htm">Organisatie structuur</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA258.htm">Organisatiebeleid</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA259.htm">Overlijdensakte</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA260.htm">P&C rapportage</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA261.htm">Patiënt (administratieve gegevens)</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA262.htm">Patiënt (basis medische gegevens)</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA263.htm">Patiëntspecifieke zorginformatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA264.htm">Personeelsdossier</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA265.htm">Planning facilitaire ondersteuning</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA266.htm">Prestatie-indicator (KPI)</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA267.htm">Privacyrichtlijnen</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA268.htm">Procesbeschrijving</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA269.htm">Producten- en dienstencatalogus</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA270.htm">Productieafspraken</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA271.htm">Productieplanning</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA272.htm">Programma</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA273.htm">Project</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA274.htm">Resultaat collefiaal consult</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA275.htm">Risicoanalyse</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA276.htm">ROM-meting</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA277.htm">Rooster</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA278.htm">Service aanvraag</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA279.htm">Signaal ihkv zorg</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA280.htm">Statusrapportage</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA281.htm">Storing</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA282.htm">Strategie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA283.htm">Technische installatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA284.htm">Toegekend zorgpad</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA285.htm">Verpleegkundig dossier</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA286.htm">Vervoersmiddel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA287.htm">Verwijsinformatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA288.htm">Visie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA289.htm">VKAM-advies</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA290.htm">VKAM-plan</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA291.htm">Voortgangs rapportage</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA292.htm">Vraag en aanbod</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA293.htm">Wettelijke VKAM-registraties</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA294.htm">Zelfmanagementinformatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA295.htm">Zorgaanbieder gegevens</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA296.htm">Zorghandeling</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA297.htm">Zorginformatie</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA298.htm">Zorgkennis</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA299.htm">Zorgproduct</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA300.htm">Zorgverlener gegevens</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA301.htm">Zorgvraag</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
+	<!-- <span class="ObjectTitle">03. Informatie objecten  : Public   Package</span> -->
+	<!-- CUSTOM -->
+	<span class="ObjectTitle">03. Informatie objecten</span>
+	<div class="ObjectDetailsNotes">Een &lt;b&gt;informatieobject &lt;/b&gt;is een eenheid van informatie, die relevant is vanuit het bedrijfsperspectief. Een informatieobject heeft betekenis voor de doelstelling en het functioneren van een organisatie. Een voorbeeld van een informatieobject is een behandelplan. &lt;br/&gt;&lt;br/&gt;Informatieobjecten zijn onafhankelijk van fysieke inrichting of implementatie in een organisatie. Ze kunnen wel worden vertaald naar een fysiek model en naar fysieke verschijningsvormen van informatie. Denk hierbij aan tabellen in een database, informatie in een datawarehouse-omgeving en informatie in documenten. Dat betekent dat onderscheid moet worden gemaakt tussen de inhoud van een begrip (iets wat betekenis heeft in de werkelijkheid) en de manifestatie/vorm waarin het wordt opgeslagen of gepresenteerd (papier, digitaal, etiket, ponsplaatje). De manifestatie/vorm blijft buiten beschouwing wanneer gesproken wordt over informatieobjecten. &lt;br/&gt;</div>
+
+	<hr>
+	<!-- END CUSTOM -->
+	<table border="0" class="ObjectDetails">
+		<!--
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15-9-2025 14:30:55</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">16-9-2025 06:39:38</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{1A96F7B4-549C-41a3-89DB-6512B15282D7}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Type:</td>
+			<td width="85%" class="ObjectDetailsValue">Package</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">15-9-2025 14:30:55</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">16-9-2025 06:39:38</td>
+		</tr>
+        <tr>
+			<td class="ObjectDetailsTopic">Versie:</td>
+			<td class="ObjectDetailsValue">1.0.0</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Komt voor in:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+
+		<!-- END CUSTOM -->
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Package+-+03. Informatie objecten&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	</table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!-- <div class="ObjectDetailsNotes">Een &lt;b&gt;informatieobject &lt;/b&gt;is een eenheid van informatie, die relevant is vanuit het bedrijfsperspectief. Een informatieobject heeft betekenis voor de doelstelling en het functioneren van een organisatie. Een voorbeeld van een informatieobject is een behandelplan. &lt;br/&gt;&lt;br/&gt;Informatieobjecten zijn onafhankelijk van fysieke inrichting of implementatie in een organisatie. Ze kunnen wel worden vertaald naar een fysiek model en naar fysieke verschijningsvormen van informatie. Denk hierbij aan tabellen in een database, informatie in een datawarehouse-omgeving en informatie in documenten. Dat betekent dat onderscheid moet worden gemaakt tussen de inhoud van een begrip (iets wat betekenis heeft in de werkelijkheid) en de manifestatie/vorm waarin het wordt opgeslagen of gepresenteerd (papier, digitaal, etiket, ponsplaatje). De manifestatie/vorm blijft buiten beschouwing wanneer gesproken wordt over informatieobjecten. &lt;br/&gt;</div>
+ --> </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>

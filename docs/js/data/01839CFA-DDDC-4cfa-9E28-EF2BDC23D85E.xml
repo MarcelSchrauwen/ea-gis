@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "01. Bedrijfsfuncties GGZ", "EARoot/EA2/EA383.htm", "175.png", "36", "0", "", "Logical diagram0","{9F0E9A56-F47E-48be-830D-31AAF44F51EA}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "02. Zorgverleners GGZ", "EARoot/EA2/EA385.htm", "175.png", "144", "0", "", "Logical diagram0","{2CB45FED-E783-49e8-9BF3-EB95F1EFB8A9}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "03. Keten- en Netwerkpartners", "EARoot/EA2/EA387.htm", "175.png", "147", "0", "", "Logical diagram0","{EECD78F5-663C-4150-BF72-B40FD89BE856}");
