@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.1.2.2:1", "", "01. Kaderende wet- en regelgeving", "EARoot/EA1/EA1/EA2/EA2/EA39.htm", "175.png", "63", "0", "", "Logical diagram0","{E5B1BB7C-D912-4146-9E88-DCA2080C9358}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2:2", "", "02. Implicaties principes", "EARoot/EA1/EA1/EA2/EA2/EA41.htm", "175.png", "79", "0", "", "Logical diagram0","{1D212F07-44D2-4721-BC71-30B1E953E35F}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2:3", "", "03. Verantwoordelijkheden specificatie", "EARoot/EA1/EA1/EA2/EA2/EA43.htm", "175.png", "95", "0", "", "Logical diagram0","{CFE753BA-060F-4d71-BE03-260E27E22CA1}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2:4", "", "04. Gegevensverwerking", "EARoot/EA1/EA1/EA2/EA2/EA45.htm", "175.png", "111", "0", "", "Logical diagram0","{C01306FB-87A3-404d-B8DA-7E919CF84783}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2:5", "", "05. Verantwoordelijkheden implementatie", "EARoot/EA1/EA1/EA2/EA2/EA47.htm", "175.png", "127", "0", "", "Logical diagram0","{55B8779F-33F9-4229-A61F-6D549A0A763D}");
+tocTab[tocTab.length] = new Array("0.1.1.2.2:6", "", "06. Europa", "EARoot/EA1/EA1/EA2/EA2/EA49.htm", "175.png", "142", "0", "", "Logical diagram0","{E4655999-4AF0-4002-96CE-C98E3CC90E6A}");

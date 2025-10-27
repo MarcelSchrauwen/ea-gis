@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "Authenticatie functie - Specialisaties", "EARoot/EA1/EA1/EA3/EA76.htm", "175.png", "147", "0", "", "Logical diagram0","{619EBF4C-AF4D-4343-9650-48C508A3863B}");
+tocTab[tocTab.length] = new Array("0.1.1.3.1", "1", "Burger/ patliënt authenticatie", "EARoot/EA1/EA1/EA3/EA1/EA95.htm", "4.png", "", "", "{85607B58-1A02-4612-913E-7AC22F513D61}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3.2", "1", "Zorgaanbieder authenticatie", "EARoot/EA1/EA1/EA3/EA2/EA108.htm", "4.png", "", "", "{80E73D16-D77B-4255-AED2-737CB80D2EFD}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3.3", "1", "Zorgverlener authenticatie", "EARoot/EA1/EA1/EA3/EA3/EA121.htm", "4.png", "", "", "{4B92B96A-D454-46a2-BEF4-8FE6E25D6993}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3.4", "1", "Applicatie authenticatie", "EARoot/EA1/EA1/EA3/EA4/EA134.htm", "4.png", "", "", "{4D13D5AC-66CA-4527-AE3A-7F7A392B8C5C}", "Package");

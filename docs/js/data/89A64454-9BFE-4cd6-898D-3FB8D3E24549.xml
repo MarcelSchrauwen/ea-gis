@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.1.2:1", "", "Identificatie functie - Specialisatie", "EARoot/EA1/EA1/EA2/EA19.htm", "175.png", "149", "0", "", "Logical diagram0","{302D9C18-A0D2-49bb-A091-9F4B62B0F3FC}");
+tocTab[tocTab.length] = new Array("0.1.1.2.1", "1", "Burger/ patiënt  identificatie", "EARoot/EA1/EA1/EA2/EA1/EA38.htm", "4.png", "", "", "{4C68BE18-7D81-483e-8D33-37A5432C6231}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2.2", "1", "Zorgaanbieder identificatie", "EARoot/EA1/EA1/EA2/EA2/EA51.htm", "4.png", "", "", "{8532E180-E9C7-4bc3-BC40-521461B3D517}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2.3", "1", "Zorgverlener identificatie", "EARoot/EA1/EA1/EA2/EA3/EA62.htm", "4.png", "", "", "{E116C7CE-3DB7-40a0-A73B-1D337AF0340F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2.4", "1", "Applicatie identificate", "EARoot/EA1/EA1/EA2/EA4/EA75.htm", "4.png", "", "", "{A88F2E52-7533-4022-B4A6-9B988440FDE1}", "Package");

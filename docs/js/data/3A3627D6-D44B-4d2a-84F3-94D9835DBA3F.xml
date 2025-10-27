@@ -1,1 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.1", "1", "01. Applicatiefuncties", "EARoot/EA2/EA1/EA308.htm", "4.png", "", "", "{9F685870-637B-4821-A4D6-7566B0272541}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1", "1", "Applicatiefuncties", "EARoot/EA1/EA1/EA4.htm", "4.png", "", "", "{9F685870-637B-4821-A4D6-7566B0272541}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "Communicatiepatronen", "EARoot/EA1/EA2/EA265.htm", "4.png", "", "", "{C505EC97-3559-4ad1-9438-AF7D25916B34}", "Package");

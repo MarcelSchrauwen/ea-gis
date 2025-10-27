@@ -1,2 +1,9 @@
-tocTab[tocTab.length] = new Array("0.2.1:1", "", "01. Lijst van applicatiefuncties", "EARoot/EA2/EA1/EA304.htm", "175.png", "41", "0", "", "Logical diagram0","{D08C1308-990B-4bda-8BA9-ACE8772BE7DE}");
-tocTab[tocTab.length] = new Array("0.2.1:2", "", "02. Beschikbaarheid van specificaties applicatiefuncties", "EARoot/EA2/EA1/EA306.htm", "175.png", "37", "0", "", "Logical diagram0","{2108C63C-6AB7-40e2-A9C7-E453A0322CE0}");
+tocTab[tocTab.length] = new Array("0.1.1.1", "1", "Overzicht", "EARoot/EA1/EA1/EA1/EA18.htm", "4.png", "", "", "{8B50361A-8D01-4387-BCCA-0E5A6D8BE121}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.2", "1", "Identificatie", "EARoot/EA1/EA1/EA2/EA21.htm", "4.png", "", "", "{89A64454-9BFE-4cd6-898D-3FB8D3E24549}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.3", "1", "Authenticatie", "EARoot/EA1/EA1/EA3/EA78.htm", "4.png", "", "", "{382060B5-7212-4fd0-836F-4966B6A6651A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.4", "1", "Autorisatie", "EARoot/EA1/EA1/EA4/EA137.htm", "4.png", "", "", "{F97B4C03-BF7D-4fb9-A2EE-B7B1902DF1E2}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.5", "1", "Toestemming", "EARoot/EA1/EA1/EA5/EA206.htm", "4.png", "", "", "{AE273A17-35E4-4ea1-A513-48EC6BF9352A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6", "1", "Addressering", "EARoot/EA1/EA1/EA6/EA221.htm", "4.png", "", "", "{A4E7E82E-6D86-45f1-85A1-A21875EED7E0}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.7", "1", "Lokalisatie", "EARoot/EA1/EA1/EA7/EA238.htm", "4.png", "", "", "{232977B6-1834-4545-9FD1-E303C4E70992}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.8", "1", "Routering", "EARoot/EA1/EA1/EA8/EA251.htm", "4.png", "", "", "{01F64999-ACC4-4282-A1A0-398669DE82BC}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.9", "1", "Logging", "EARoot/EA1/EA1/EA9/EA264.htm", "4.png", "", "", "{DF276D40-6B1D-4dba-ACD1-7B738505BB74}", "Package");

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.2.4:1", "", "Netwerk", "EARoot/EA3/EA2/EA4/EA452.htm", "9F0DDA8A-5_ArchiMate_CommunicationNetwork.png", "E288", "0", "", "Class0","{C125DDA5-2806-489a-8104-B96B1366E984}");
+tocTab[tocTab.length] = new Array("0.3.2.4:2", "", "Netwerk-functie", "EARoot/EA3/EA2/EA4/EA453.htm", "9F0DDA8A-5_ArchiMate_TechnologyFunction.png", "E287", "0", "", "Activity0","{0CEBF492-23BF-418f-9FB4-F1A74F8135EF}");
+tocTab[tocTab.length] = new Array("0.3.2.4:3", "", "Netwerk-node", "EARoot/EA3/EA2/EA4/EA454.htm", "9F0DDA8A-5_ArchiMate_Node.png", "E289", "0", "", "Class0","{323A11F6-22C6-4c61-904A-831C06882298}");
+tocTab[tocTab.length] = new Array("0.3.2.4:4", "", "Netwerk-pad", "EARoot/EA3/EA2/EA4/EA455.htm", "9F0DDA8A-5_ArchiMate_Path.png", "E290", "0", "", "Class0","{86F95A50-7C53-4b58-93D1-EAB9863E7DD7}");
+tocTab[tocTab.length] = new Array("0.3.2.4:5", "", "Netwerk-service", "EARoot/EA3/EA2/EA4/EA456.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E286", "0", "", "Activity0","{F41D23BD-A58E-44b7-B778-73376D997503}");

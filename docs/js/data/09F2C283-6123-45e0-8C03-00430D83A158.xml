@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.1", "1", "Weergave metamodellen", "EARoot/EA3/EA1/EA430.htm", "4.png", "", "", "{65AD3F37-F249-4732-86DC-73F8543F601B}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2", "1", "Metamodel Elementen", "EARoot/EA3/EA2/EA432.htm", "4.png", "", "", "{D7E96CFC-2D84-4070-A43B-0DF07AC1B50F}", "Package");

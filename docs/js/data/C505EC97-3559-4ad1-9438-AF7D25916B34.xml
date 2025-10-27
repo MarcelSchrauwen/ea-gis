@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.2.1", "1", "Overzicht", "EARoot/EA1/EA2/EA1/EA273.htm", "4.png", "", "", "{9D2D9260-06B6-443e-9C7C-CD3ED6EACC71}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2", "1", "Gericht verzenden", "EARoot/EA1/EA2/EA2/EA288.htm", "4.png", "", "", "{BE5E4C48-3FD4-45df-AC3D-DC318E30FC15}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.3", "1", "Gericht beschikbaar stellen", "EARoot/EA1/EA2/EA3/EA303.htm", "4.png", "", "", "{9BA2484F-8175-4d41-B580-BA85C1FF9812}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.4", "1", "Gericht bevragen", "EARoot/EA1/EA2/EA4/EA318.htm", "4.png", "", "", "{DB716841-D057-4670-B2B6-0D031709677F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.5", "1", "Ongericht bevragen", "EARoot/EA1/EA2/EA5/EA333.htm", "4.png", "", "", "{CA58D531-7001-483e-9203-08DB573AB75D}", "Package");
