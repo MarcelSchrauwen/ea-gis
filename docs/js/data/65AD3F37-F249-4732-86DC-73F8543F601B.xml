@@ -1,1 +1,2 @@
 tocTab[tocTab.length] = new Array("0.3.1:1", "", "Elementen", "EARoot/EA3/EA1/EA428.htm", "175.png", "170", "0", "", "Logical diagram0","{C0DB9376-1FE1-4a69-A2E2-59441765AD26}");
+tocTab[tocTab.length] = new Array("0.3.1:2", "", "Metamodel van een applicatiefunctie", "EARoot/EA3/EA1/EA430.htm", "175.png", "251", "0", "", "Logical diagram0","{FEE8CF7A-BD01-4a61-A49B-1F2A087030A4}");

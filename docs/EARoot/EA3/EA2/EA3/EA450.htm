@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Applicatie domein::Data-object</title>
+<title>Applicatie domein::Applicatie-interface</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <!-- START: TOOLTIP CODE -->
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
@@ -78,7 +78,7 @@
 			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Architectuur-GIS</a> / <a href="../../EA425.htm">Metamodellen</a> / <a href="../EA432.htm">Metamodel Elementen</a> / <a href="EA446.htm">Applicatie domein</a> / <a href="EA450.htm">Data-object</a></p>
+			<p><a href="../../../../index.htm">Architectuur-GIS</a> / <a href="../../EA425.htm">Metamodellen</a> / <a href="../EA434.htm">Metamodel Elementen</a> / <a href="EA448.htm">Applicatie domein</a> / <a href="EA450.htm">Applicatie-interface</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -94,15 +94,15 @@
 						<!-- <div class="projectBrowserTitle">Project: </div> -->
 						<div class="projectBrowserTitle"></div>
 						<ul>
-<a href="EA446.htm">Applicatie domein</a></ul>
+<a href="EA448.htm">Applicatie domein</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
-	<!-- <span class="ObjectTitle">Data-object  : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span> -->
+	<!-- <span class="ObjectTitle">Applicatie-interface  : Public abstract &lt;&lt;ArchiMate_ApplicationInterface&gt;&gt; ApplicationInterface</span> -->
 	<!-- CUSTOM -->
-	<span class="ObjectTitle">Data-object</span>
-	<div class="ObjectDetailsNotes">&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Synoniem&lt;/b&gt;&lt;br/&gt;Gegevens-object&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Voorbeelden&lt;/b&gt;&lt;br/&gt;- Een register&lt;br/&gt;- Adresgegevens&lt;br/&gt;- Elektronisch pati&#235;nten dossier&lt;br/&gt;</div>
+	<span class="ObjectTitle">Applicatie-interface</span>
+	<div class="ObjectDetailsNotes">Een applicatie-interface vertegenwoordigt het koppelvlak of toegangspunt van een applicatie, via welke de onderliggende functionaliteit door andere componenten of gebruikers kan worden benut.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Voorbeelden&lt;/b&gt;&lt;br/&gt;- Gebruikersinterface (GUI)&lt;br/&gt;- Applicatie Programming Interface (API)&lt;br/&gt;&lt;br/&gt;</div>
 
 	<hr>
 	<!-- END CUSTOM -->
@@ -110,11 +110,11 @@
 		<!--
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">25-10-2025 12:01:14</td>
+			<td width="85%" class="ObjectDetailsValue">27-10-2025 13:51:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">27-10-2025 09:11:18</td>
+			<td class="ObjectDetailsValue">27-10-2025 13:55:00</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -159,25 +159,25 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C9AAF054-F3C0-4aae-A761-A900D14CC065}</td>
+			<td class="ObjectDetailsValue">{32320E34-1FC7-4018-8F55-A1C47EF1FB67}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA1/EA428.htm">Elementen</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA1/EA428.htm">Elementen</a>, <a href="../../EA1/EA430.htm">Metamodel van een applicatiefunctie</a></td>
 		</tr>
 		-->
 		<!-- CUSTOM -->
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Type:</td>
-			<td width="85%" class="ObjectDetailsValue">DataObject</td>
+			<td width="85%" class="ObjectDetailsValue">ApplicationInterface</td>
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
-			<td width="85%" class="ObjectDetailsValue">25-10-2025 12:01:14</td>
+			<td width="85%" class="ObjectDetailsValue">27-10-2025 13:51:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">27-10-2025 09:11:18</td>
+			<td class="ObjectDetailsValue">27-10-2025 13:55:00</td>
 		</tr>
         <tr>
 			<td class="ObjectDetailsTopic">Versie:</td>
@@ -185,7 +185,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Komt voor in:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA1/EA428.htm">Elementen</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA1/EA428.htm">Elementen</a>, <a href="../../EA1/EA430.htm">Metamodel van een applicatiefunctie</a></td>
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Beheerder:</td>
@@ -199,17 +199,43 @@
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td class="ObjectDetailsTopic">Reactie:</td>
-			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+DataObject+-+Data-object&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+ApplicationInterface+-+Applicatie-interface&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
 		</tr>
 	</table> -->
 	<hr>
 	<!-- END CUSTOM -->
-	<!-- <div class="ObjectDetailsNotes">&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Synoniem&lt;/b&gt;&lt;br/&gt;Gegevens-object&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Voorbeelden&lt;/b&gt;&lt;br/&gt;- Een register&lt;br/&gt;- Adresgegevens&lt;br/&gt;- Elektronisch pati&#235;nten dossier&lt;br/&gt;</div>
+	<!-- <div class="ObjectDetailsNotes">Een applicatie-interface vertegenwoordigt het koppelvlak of toegangspunt van een applicatie, via welke de onderliggende functionaliteit door andere componenten of gebruikers kan worden benut.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Voorbeelden&lt;/b&gt;&lt;br/&gt;- Gebruikersinterface (GUI)&lt;br/&gt;- Applicatie Programming Interface (API)&lt;br/&gt;&lt;br/&gt;</div>
  -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="45%" class="TableHeading">Notities</td>
+					<td width="25%" class="TableHeading">Type relatie</td>
+					<td width="5%" class="TableHeading">Richting</td>
+					<td width="25%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						<div class="ObjectDetailsNotes">De applicatie-interface ondersteunt het applicatie-component dat gebruik wil maken van de applicatie-functie.&lt;br/&gt;</div>
+
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						«ArchiMate_Serving» 
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="EA451.htm">«ArchiMate_ApplicationComponent» Application Component 2</a>
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table class="Table ea_table">
 				<tr>
@@ -229,7 +255,21 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA5/EA1/EA464.htm">«ArchiMate_Grouping» Logische architectuur</a>
+						<a href="../EA5/EA1/EA469.htm">«ArchiMate_Grouping» Logische architectuur</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						<div class="ObjectDetailsNotes">Een applicatiecomponent heeft een applicatie-interface nodig om gebruikt te kunnen worden door gebruikers of andere applicaties of applicatiecomponenten.&lt;br/&gt;</div>
+
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						«ArchiMate_Composition» 
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="EA449.htm">«ArchiMate_ApplicationComponent» Applicatie(component)</a>
 					</td>
 				</tr>
 			</table>
