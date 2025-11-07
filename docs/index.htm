@@ -1,111 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>EA-GIS</title>
-<link href="css/ea.css" rel="stylesheet" type="text/css" />
-<script>
-
-  function switchProjectProperties() {
-			if (document.getElementById("proj00").style.display == "none") {
-				document.getElementById("proj00").style.display = "revert";
-				document.getElementById("proj01").style.display = "revert";
-				document.getElementById("proj02").style.display = "revert";
-				document.getElementById("proj03").style.display = "revert";
-				document.getElementById("proj04").style.display = "revert";
-				document.getElementById("proj05").style.display = "revert";
-			} else {
-				document.getElementById("proj00").style.display = "none";
-				document.getElementById("proj01").style.display = "none";
-				document.getElementById("proj02").style.display = "none";
-				document.getElementById("proj03").style.display = "none";
-				document.getElementById("proj04").style.display = "none";
-				document.getElementById("proj05").style.display = "none";
-			}
-}
-
-		function switchAdvancedProperties(){
-
-			if (document.getElementById("adv00").style.display == "none") {;
-				document.getElementById("adv00").style.display = "revert";
-				document.getElementById("adv01").style.display = "revert";
-			} else {
-				document.getElementById("adv00").style.display = "none";
-				document.getElementById("adv01").style.display = "none";
-			}
-		}
-		function initPage()
-        {			
-			var divs = document.getElementsByClassName("ObjectDetailsNotes");
-			for (var j = 0; j < divs.length; j++) {
-				var tmpStr = divs[j].innerHTML;
-				tmpStr = tmpStr.replace(/&gt;/g, ">");
-				tmpStr = tmpStr.replace(/&lt;/g, "<");
-
-				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
-				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
-
-				divs[j].innerHTML = tmpStr;
-			}
-
-            if (document.getElementById('TableGroup') != null)
-            {
-                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
-            }
-
-        }
-</script>
-<style>
-
-</style>
-</head>
-<body>
-<div class="section group" >
-
-		<div class="col span_2_of_2 header_frame">
-			<h1>GIS Enterprise Architectuur werkomgeving</h1>
-			<img class="header_image" src="images/ea-banner.png" align="right" alt="Header Image" />
-		</div>
-		<div class="col span_2_of_2 breadcrumb_frame">
-			<p></p>
-		</div>
-		
-		<table class="contentmaintable">
-			<!-- <tfoot>
-				<tr>
-					<td>foot1</td>
-					<td>foot2</td>
-				</tr>
-			</tfoot> -->
-			<tbody>
-				<tr>
-					<td class="indexcell">
-						<!-- <div class="projectBrowserTitle">Project: </div> -->
-						<div class="projectBrowserTitle">Views en elementen: </div>
-						<ul>
-<li><img src="images/4.png" alt="Package"/> <a href="./EARoot/EA1/EA1.htm">Weergaven</a></li>
-<li><img src="images/4.png" alt="Package"/> <a href="./EARoot/EA2/EA334.htm">Elementen</a></li>
-<li><img src="images/4.png" alt="Package"/> <a href="./EARoot/EA3/EA425.htm">Metamodellen</a></li>
-</ul>
-
-					</td>
-					<td class="contentcell">	
-						<div class="welcome_message">
-							<!-- <h2>Welcome to your model</h2> -->
-							<!-- <p>To get started navigate through the model via the index on the left</p> -->
-							<h2>Welkom</h2>
-							<p>Deze architectuur repository is een werkomgeving bedoeld voor GIS architecten. Kijk er gerust in rond maar raadpleeg voor de officiële publicaties (deze volgen nog).</p>
-							<p>Binnen deze werkomgeving wordt de samenstelling en samenhang van het gezondheidsinformatiestelsel stap voor stap integraal uitgewerkt. We starten hierbij vanuit de applicatiefuncties en communicatiepatronen binnen het applicatie-domein.</p>
-							<p>Het inzicht dat een uitgewerkte enterprise-architectuur biedt, maakt de besluitvorming, realisatie en implementatie van databeschikbaarheidsoplossingen op landelijk niveau eenvoudiger, voorkomt gaten en dubbelingen, en helpt risico’s te verlagen.</p>
-						    <p>Aan deze enterprise architectuur werken de volgende organisaties mee:</p>
-							<p>(volgt met plaatjes of namen)</p>
-						
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		
-
-</div>
-</body>
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Omgeving verplaatst</title>
+    <meta http-equiv="refresh" content="5; url=https://gis-a.github.io/EA-GIS/">
+    <style>
+      html, body { height: 100%; margin: 0; }
+      body { display: flex; align-items: center; justify-content: center; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: #f7f9fc; color: #111; }
+      .container { text-align: center; padding: 24px; border-radius: 12px; box-shadow: 0 6px 24px rgba(16,24,40,0.06); background: white; }
+      h1 { margin: 0 0 12px; font-size: 24px; }
+      a { color: #0056d2; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Deze omgeving is verplaatst naar:</h1>
+      <p><a href="https://gis-a.github.io/EA-GIS/">https://gis-a.github.io/EA-GIS/</a></p>
+    </div>
+  </body>
 </html>
