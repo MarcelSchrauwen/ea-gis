@@ -1,10 +1,5 @@
 # Enterprise Architectuur GIS
-Publicatie van een Enterprise Architectuur van het gezondheidsinformatiestelsel (mogelijk later dé Enterprise Architectuur)
-
-### Deze plek is tijdelijk
-Een publicatie van de architectuur van het gezondheidsinformatiestelsel hoort uiteraard niet thuis onder een persoonlijk Github account. 
-Zodra er een plek is waar deze definief ondergebracht kan worden zal een verhuizing plaatsvinden. Dit zal afhangen van de keuze om deze enterprise architectuur daadwerkelijk te gaan gebruiken als hulpmiddel om mee te sturen. Wanneer die keuze gemaakt wordt zal er met meerdere architecten aan deze architectuur gewerkt gaan worden.
-Het is wel belangrijk om te weten dat deze repository enkel een html rapport publicatie van de daadwerkelijke architectuurdatabase bevat, die zelf veilig is ondergebracht in een beheerde omgeving.
+Publicatie van de Enterprise Architectuur van het gezondheidsinformatiestelsel.
 
 ### Wat is het (en wat niet)
 Deze omgeving is ingericht voor Enterprise Architectuur. De focus ligt hierbij op de samenhang van processen, informatie, applicaties en infrastructuur binnen het gezondheidsinformatiestelsel. Enterprise Architectuur beschrijft de kaders, principes en richtlijnen die richting geven aan de ontwikkeling van het stelsel en biedt een hoog-over beeld van het geheel.
@@ -15,4 +10,3 @@ Door deze scheiding is duidelijk dat deze omgeving de architectuur van het gehel
 
 ### Links
 - [Publicatie](https://marcelschrauwen.github.io/ea-gis/)
-- Openstaande issues (to do)
